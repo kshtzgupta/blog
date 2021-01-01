@@ -39,6 +39,7 @@ baseurl: "" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
+    linkedin: kshitiz-gupta
     github: kshtzgupta
 
 # Set this to true to get LaTeX math equation support
@@ -82,7 +83,6 @@ html_escape:
 future: true
 theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-gist
   - jekyll-octicons
   - jekyll-toc
@@ -115,7 +115,3 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
 
-# to limit size of xml as it can grow quite large.
-feed:
-  posts_limit: 5 #default posts_limit: 10
-  excerpt_only: true
